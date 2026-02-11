@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ func main() {
 	target := random.Intn(100) + 1
 	fmt.Println("Welcome to the Guessing Game!")
 	fmt.Println("I have selected a number between 1 to 100")
-
+	
 	var guess int
 	for {
 		fmt.Print("Enter your guess: ")
